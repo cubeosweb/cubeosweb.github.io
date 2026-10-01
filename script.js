@@ -3,7 +3,7 @@ var _devBuildVer = "3.0.1";
 
 var APPS = {
     'minetpe': {title: 'MineTPE', path: 'script/Apps/MineTPE/index.html', icon: 'https://github.com/testering1thing/MineTPE/blob//main/favicon.png?raw=true', pinned: true},
-    'drive': {title: 'Drive Online', path: 'script/Apps/DriveOnline/index.html', icon: 'https://github.com/cubeosweb/cubeosweb.github.io/blob/main/cardrive.png?raw=true', pinned: true},
+    'drive': {title: 'Drive Online', path: 'script/Apps/DriveOnline/index.html', icon: 'https://github.com/cubeoswebsite/cubeoswebsite.github.io/blob/main/cardrive.png?raw=true', pinned: true},
     'cine': {title: 'CINE // HUB', path: 'script/Apps/Cine/index.html', icon: 'https://cdn.worldvectorlogo.com/logos/netflix-logo-icon.svg', pinned: true},
     'term': {title: 'Spotify', path: 'script/Apps/Spotify/index.html', icon: 'https://cdn.pixabay.com/photo/2016/10/22/00/15/spotify-1759471_1280.jpg', pinned: true},
     'files': {title: 'PS5 Emu', path: 'script/Apps/Ps5/index.html', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-OeL_be7RFaoHi3PswkuAR5XcMgBNRDynsg&s', pinned: true},
@@ -82,7 +82,7 @@ window.updateSysSetting = function(key, value) {
 };
 
 var cloaks = {
-    cubeos: {title: "CubeOS", icon: "https://raw.githubusercontent.com/cubeosweb/cubeosweb.github.io/refs/heads/main/cube32x32.png"},
+    cubeos: {title: "CubeOS", icon: "https://raw.githubusercontent.com/cubeoswebsite/cubeoswebsite.github.io/refs/heads/main/cube32x32.png"},
     google: {title: "Google", icon: "https://www.google.com/favicon.ico"},
     drive: {title: "My Drive - Google Drive", icon: "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png"},
     canvas: {title: "Dashboard", icon: "https://du11hjcvx0uqb.cloudfront.net/br/dist/images/favicon-e10d657a73.ico"},
@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function renderUI() {
     let dock = document.getElementById('dock-container');
-    let dHTML = '<div class="dock-item" onclick="toggleStartMenu()"><img src="https://raw.githubusercontent.com/cubeosweb/cubeosweb.github.io/refs/heads/main/cube32x32.png"></div><div class="dock-sep"></div><div class="dock-item" onclick="toggleAppDrawer()"><svg width="24" height="24" viewBox="0 0 24 24" fill="#aaa"><path d="M4 4h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 10h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 16h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4z"/></svg></div><div class="dock-sep"></div>';
+    let dHTML = '<div class="dock-item" onclick="toggleStartMenu()"><img src="https://raw.githubusercontent.com/cubeoswebsite/cubeoswebsite.github.io/refs/heads/main/cube32x32.png"></div><div class="dock-sep"></div><div class="dock-item" onclick="toggleAppDrawer()"><svg width="24" height="24" viewBox="0 0 24 24" fill="#aaa"><path d="M4 4h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 10h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 16h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4z"/></svg></div><div class="dock-sep"></div>';
     
     let pGrid = document.getElementById('pinned-grid');
     let pHTML = '';
