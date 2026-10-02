@@ -2,7 +2,7 @@ var _SYSTEM_PATHS = ["C:/Windows/System32/kernel32.dll", "/var/www/html/cine-os/
 var _devBuildVer = "3.0.1";
 
 var APPS = {
-    'minetpe': {title: 'MineTPE', path: 'script/Apps/MineTPE/index.html', icon: 'https://github.com/testering1thing/MineTPE/blob//main/favicon.png?raw=true', pinned: true},
+    'minetpe': {title: 'MineTPE', path: 'script/Apps/MineTPE/index.html', icon: 'https://github.com/testering1thing/MineTPE/blob/main/favicon.png?raw=true', pinned: true},
     'drive': {title: 'Drive Online', path: 'script/Apps/DriveOnline/index.html', icon: 'https://github.com/cubeoswebsite/cubeoswebsite.github.io/blob/main/cardrive.png?raw=true', pinned: true},
     'cine': {title: 'CINE // HUB', path: 'script/Apps/Cine/index.html', icon: 'https://cdn.worldvectorlogo.com/logos/netflix-logo-icon.svg', pinned: true},
     'term': {title: 'Spotify', path: 'script/Apps/Spotify/index.html', icon: 'https://cdn.pixabay.com/photo/2016/10/22/00/15/spotify-1759471_1280.jpg', pinned: true},
